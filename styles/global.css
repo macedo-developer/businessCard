@@ -1,0 +1,46 @@
+:root {
+  --color-background: #252a2e;
+  --color-primary: #6c2678;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  background: var(--color-background);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+strong,
+span,
+a {
+  font-family: "Work Sans";
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+}
