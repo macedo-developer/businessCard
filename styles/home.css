@@ -113,6 +113,11 @@
 
 #wrapper .firstSection .apresentaion .group-redes .redes i {
   font-size: 18px;
+  color: #fff;
+}
+
+#wrapper .firstSection .apresentaion .group-redes .redes a {
+  text-decoration: none;
 }
 
 @media (max-width: 425px) {
