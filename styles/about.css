@@ -12,7 +12,18 @@
   justify-content: center;
 }
 
-#about .about-container h1{
+#about .about-container h1 {
   padding-bottom: 50px;
-  font-size: 38px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+#about .about-container .text-about p {
+  font-weight: 300;
+}
+
+#about .about-container .text-about p span {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 18px;
 }
