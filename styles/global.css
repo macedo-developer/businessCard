@@ -32,6 +32,8 @@ strong,
 span,
 a {
   font-family: "Work Sans";
+  text-decoration: none;
+  color: #fff;
 }
 
 ul,
