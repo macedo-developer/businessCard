@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/about.css">
 
   <title>Renata Macedo</title>
 </head>
@@ -19,13 +20,15 @@
     <header>
       <h1>Dev</h1>
       <ul>
-        <li>HOME</li>
-        <li>SOBRE</li>
-        <li>CONTATO</li>
+        <li><a href="#home">
+            HOME </a>
+        </li>
+        <li><a href="#about">SOBRE</a></li>
+        <li><a href="#contact">CONTATO</a></li>
       </ul>
     </header>
 
-    <div class="firstSection">
+    <div id="home" class="firstSection">
       <div class="apresentaion">
         <div class="avatar">
           <img src="./assets/avatar.png" alt="Renata Macedo">
@@ -48,6 +51,18 @@
         </div>
       </div>
     </div>
+
+    <section id="about">
+      <div class="about-container">
+        <h1>SOBRE</h1>
+        <div class="text-about">
+          <p><span>Olá! Eu sou a Renata! </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis
+            ornare purus. Morbi luctus tortor
+            nunc, vitae posuere nibh malesuada sed. In nec tortor eu nibh tristique vehicula sed in lectus. Phasellus
+            vitae accumsan tortor. Fusce ac vestibulum ante.</p>
+        </div>
+      </div>
+    </section>
 
   </div>
 </body>
