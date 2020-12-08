@@ -102,3 +102,39 @@
   font-weight: 500;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  #about .about-container .details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about .about-container .details .personal-details ul li strong {
+    width: 110px;
+  }
+
+  #about .about-container .details .personal-details h3 {
+    text-align: center;
+  }
+
+  #about .about-container .details .my-interests {
+    justify-content: center;
+  }
+
+  #about .about-container .details .my-interests h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #about .about-container .details .my-interests ul {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  #about .about-container {
+    padding: 40px 40px;
+  }
+}
