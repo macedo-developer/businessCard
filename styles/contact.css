@@ -13,7 +13,29 @@
 }
 
 #contact .contact-container h1 {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   font-size: 34px;
   font-weight: 700;
+}
+
+#contact .contact-container .social-media {
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid var(--color-primary);
+}
+
+#contact .contact-container .social-media ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact .contact-container .social-media ul li i {
+  font-size: 34px;
+  transition: color 0.6s ease;
+}
+
+#contact .contact-container .social-media ul li i:hover {
+  color: var(--color-primary);
 }
