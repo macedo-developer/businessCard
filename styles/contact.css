@@ -42,9 +42,48 @@
 
 #contact .contact-container form {
   width: 50%;
+  padding-top: 20px;
 }
 
 #contact .contact-container form .input-block {
   display: flex;
   flex-direction: column;
+}
+
+#contact .contact-container form .input-block label {
+  margin: 10px 0;
+}
+
+#contact .contact-container form .input-block input {
+  height: 43px;
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+}
+
+#contact .contact-container form .input-block textarea {
+  font-size: 14px;
+  height: 200px;
+  resize: none;
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+}
+
+#contact .contact-container form button {
+  margin-top: 20px;
+  height: 43px;
+  width: 100%;
+  background: var(--color-primary);
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+#contact .contact-container form button:hover {
+  background-color: var(--color-primary-hover);
 }
