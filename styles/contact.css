@@ -39,3 +39,12 @@
 #contact .contact-container .social-media ul li i:hover {
   color: var(--color-primary);
 }
+
+#contact .contact-container form {
+  width: 50%;
+}
+
+#contact .contact-container form .input-block {
+  display: flex;
+  flex-direction: column;
+}
