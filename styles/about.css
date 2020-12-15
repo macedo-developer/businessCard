@@ -135,6 +135,9 @@
 }
 
 @media (max-width: 425px) {
+  #about {
+    height: auto;
+  }
   #about .about-container {
     padding: 90px 40px;
   }

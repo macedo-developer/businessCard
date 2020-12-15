@@ -87,3 +87,21 @@
 #contact .contact-container form button:hover {
   background-color: var(--color-primary-hover);
 }
+
+@media (max-width: 425px) {
+  #contact {
+    height: auto;
+  }
+
+  #contact .contact-container {
+    padding: 20px;
+  }
+
+  #contact .contact-container .social-media {
+    width: 60%;
+  }
+
+  #contact .contact-container form {
+    width: 100%;
+  }
+}
