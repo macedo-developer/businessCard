@@ -136,6 +136,12 @@
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  #wrapper header {
+    width: 100vw;
+  }
+}
+
 @media (max-width: 425px) {
   #wrapper header {
     width: 100vw;
