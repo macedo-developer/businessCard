@@ -32,3 +32,34 @@ footer .back-top i {
 footer .back-top:hover {
   background-color: var(--color-primary-hover);
 }
+
+footer .footer-container .social-media {
+  width: 30%;
+  padding: 10px;
+}
+
+footer .footer-container .social-media ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer .footer-container .social-media ul li {
+  width: 52px;
+  height: 52px;
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.6s ease-in-out;
+}
+
+footer .footer-container .social-media ul li:hover {
+  background-color: var(--color-primary);
+}
+
+footer .footer-container .social-media ul li i {
+  font-size: 24px;
+}
