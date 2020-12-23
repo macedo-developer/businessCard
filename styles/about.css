@@ -21,6 +21,7 @@
 
 #about .about-container .text-about p {
   font-weight: 300;
+  text-align: justify;
 }
 
 #about .about-container .text-about p span {
