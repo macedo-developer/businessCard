@@ -130,25 +130,25 @@
         </div>
 
         <p>Entre em contato pelas redes sociais ou mande uma mensagem abaixo</p>
-
-        <form action="">
+        <p id="my-form-status"></p>
+        <form id="my-form" action="https://formspree.io/f/mvovvrde" method="POST">
           <div class="input-block">
             <label for="name">Nome</label>
-            <input id="name" name="Email" required type="text" placeholder="Renata Macedo">
+            <input id="name" name="name" required type="text" placeholder="Renata Macedo">
           </div>
 
           <div class="input-block">
             <label for="email">Email</label>
-            <input id="email" name="Email" type="email" required placeholder="exemplo@exemplo.com">
+            <input id="email" name="email" type="email" required placeholder="exemplo@exemplo.com">
           </div>
 
           <div class="input-block">
             <label>Mensagem</label>
-            <textarea placeholder="Digite sua mensagem..." name="Mensagem" rows="2" cols="30" id="mensagem"
+            <textarea placeholder="Digite sua mensagem..." name="mensagem" rows="2" cols="30" id="mensagem"
               required></textarea>
           </div>
 
-          <button>Enviar</button>
+          <button id="my-form-button" type="submit">Enviar</button>
         </form>
       </div>
     </section>
@@ -180,6 +180,8 @@
     </footer>
 
   </div>
+
+  <script src="/js/contact.js"></script>
 </body>
 
 </html>
