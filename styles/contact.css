@@ -105,3 +105,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  #contact .contact-container {
+    padding: 140px 20px;
+  }
+}
